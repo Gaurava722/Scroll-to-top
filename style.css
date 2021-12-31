@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0.5%;
+  padding: 0.5%;
+}
+
+p h1 {
+  color: #000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.arrow {
+  position: fixed;
+  right: 1%;
+  bottom: 1%;
+  width: 60px;
+  height: 60px;
+  background-color: #050505;
+  color: #fafafb;
+  border-radius: 50%;
+}
+.arrow:active {
+  position: fixed;
+  right: 1%;
+  bottom: 1%;
+  width: 59px;
+  height: 59px;
+  background-color: #000000;
+  color: #fafafb;
+  border-radius: 50%;
+}
